@@ -17,7 +17,7 @@ System.out.println();
   public static void findPrimes(int num1, int num2){
     ArrayList<Integer> list = new ArrayList<Integer>();
     int i = num1; 
-      while (i < num2){
+      while (i < num2 -1){
         i ++; 
         if (i % 2 == 1){
           list.add(i); 
